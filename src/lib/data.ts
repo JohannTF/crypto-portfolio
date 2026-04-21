@@ -7,7 +7,7 @@ export const personalInfo = {
     "Estudiante de Ingeniería en Sistemas Computacionales en Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN), apasionado por el desarrollo backend, tecnologías nuevas y algoritmos.",
   profileImage: "/assets/profile/profile.png",
   cvUrl: "/assets/English_CV_TrejoFlores.pdf",
-  publicKeyUrl: "/assets/public_key.asc",
+  publicKeyUrl: "/assets/keys/key.pub",
 };
 
 // ── Education ──
