@@ -1,0 +1,36 @@
+import { Navbar } from "./components/layout/Navbar";
+import { Footer } from "./components/layout/Footer";
+import { PresentationHero } from "./components/composite/PresentationHero";
+import { HobbiesCarousel } from "./components/composite/HobbiesCarousel";
+import { VideosSection } from "./components/composite/VideosSection";
+import { CryptographyCarousel } from "./components/composite/CryptographyCarousel";
+import { EducationSection } from "./components/composite/EducationSection";
+import { TechnologiesSection } from "./components/composite/TechnologiesSection";
+import { ProjectsSection } from "./components/composite/ProjectsSection";
+import { CertificationsSection } from "./components/composite/CertificationsSection";
+import { ContactSection } from "./components/composite/ContactSection";
+
+function App() {
+  return (
+    <div className="min-h-screen bg-bg-primary text-text-primary">
+      <Navbar />
+
+      <main>
+        <PresentationHero />
+        <HobbiesCarousel />
+        <VideosSection />
+        <CryptographyCarousel />
+        {/* <CryptoSection /> */}
+        <EducationSection />
+        <TechnologiesSection />
+        <ProjectsSection />
+        <CertificationsSection />
+        <ContactSection />
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
